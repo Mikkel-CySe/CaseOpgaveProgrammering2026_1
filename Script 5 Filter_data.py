@@ -31,4 +31,5 @@ rows = cursor.fetchall()
 for row in rows:
     print(f"ID: {row[0]} | Beskrivelse: {row[1]} | Pris: {row[2]} kr. | Bil: {row[3]} | Kategori: {row[4]}")
 
+
 conn.close()
