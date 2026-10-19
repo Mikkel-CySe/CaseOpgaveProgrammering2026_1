@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8175dc7-5daa-4b91-88d4-e2db25bb54d4" name="Changes" comment="It works!">
+      <change afterPath="$PROJECT_DIR$/script 2/bulk-insert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CaseOpgaveSommer2026.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CaseOpgaveSommer2026.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-10-2026_11_09_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-10-2026_11_09__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_tabelstruktur.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_tabelstruktur.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -33,8 +36,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mikkel-CySe/CaseOpgaveSommer2026.git",
-    "accountId": "61eaa1a7-2bdb-4452-9822-596e9cc9a507"
+    "url": "https://github.com/Mikkel-CySe/CaseOpgaveProgrammering2026_1.git",
+    "accountId": "3276922b-decc-4ab6-a1d7-c697acc93431"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -46,19 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.bulk-insert.executor": "Run",
+    "Python.database_tabelstruktur.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "git.auto.fetch.suggestion.counter": "1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="database_tabelstruktur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CaseOpgaveSommer2026" />
@@ -94,7 +105,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
       </set>
     </attachedChunks>
   </component>
@@ -108,6 +119,7 @@
       <workItem from="1791447833174" duration="829000" />
       <workItem from="1791449957337" duration="26000" />
       <workItem from="1791451173775" duration="654000" />
+      <workItem from="1792391815878" duration="434000" />
     </task>
     <servers />
   </component>
