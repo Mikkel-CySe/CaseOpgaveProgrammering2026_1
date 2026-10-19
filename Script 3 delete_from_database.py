@@ -10,4 +10,5 @@ cursor.execute("DELETE FROM workshop")
 conn.commit()
 
 conn.close()
+
 print("Alt data fra databasen workshop.db er blevet ryddet!")
