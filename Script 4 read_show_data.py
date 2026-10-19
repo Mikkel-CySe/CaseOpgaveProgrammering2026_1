@@ -6,3 +6,14 @@ Data skal udskrives pænt i konsollen.
 import sqlite3
 conn = sqlite3.connect('workshop.db')
 cursor = conn.cursor()
+
+cursor.execute("SELECT * FROM workshop")
+
+rows = cursor.fetchall()
+for row in rows:
+    print(row)
+
+
+
+
+conn.close()
