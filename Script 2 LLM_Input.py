@@ -511,16 +511,22 @@ insert_statements = [
     "INSERT INTO workshop (name, price, vehiclemodel, category) VALUES ('Skift turbo', 17250, 'Toyota Corolla', 'Motor')",
     "INSERT INTO workshop (name, price, vehiclemodel, category) VALUES ('Udluftning af bremser', 590, 'Ford Kuga', 'Bremser')",
 ]
-conn.commit()
-#ændringen skrives til vores db
-conn.commit()
 
-# Vi henter alt fra tabellen og viser det, så vi kan se at det virker
-cursor.execute("SELECT * FROM workshop")
+# Tjek om tabellen allerede har data, så vi ikke indsætter dubletter
+cursor.execute("SELECT COUNT(*) FROM workshop")
+antal_foer = cursor.fetchone()[0]
 
-rows = cursor.fetchall()
+if antal_foer > 0:
+    print("Tabellen har allerede", antal_foer, "rækker. Kør script #3 (tøm tabellen) først.")
+else:
+    # Gå listen igennem og kør hvert INSERT-statement
+    for statement in insert_statements:
+        cursor.execute(statement)
 
-for row in rows:
-    print(row)
+    conn.commit()
+
+    cursor.execute("SELECT COUNT(*) FROM workshop")
+    antal_efter = cursor.fetchone()[0]
+    print("Bulk-insert gennemført!", antal_efter, "rækker er indsat i tabellen 'workshop'.")
 
 conn.close()

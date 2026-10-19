@@ -6,7 +6,7 @@ import sqlite3
 conn = sqlite3.connect('workshop.db')
 cursor = conn.cursor()
 
-cursor.execute("DELETE FROM workshop.db")
+cursor.execute("DELETE FROM workshop")
 conn.commit()
 
 conn.close()
