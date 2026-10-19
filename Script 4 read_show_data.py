@@ -4,13 +4,14 @@ Data skal udskrives pænt i konsollen.
 """
 
 import sqlite3
+
 conn = sqlite3.connect('workshop.db')
 cursor = conn.cursor()
 
 cursor.execute("SELECT * FROM workshop")
-
 rows = cursor.fetchall()
-for row in rows:
-    print(row)
+
+for row in rows[0:10]:
+    print(f"ID: {row[0]} | Beskrivelse: {row[1]} | Pris: {row[2]} kr. | Bil: {row[3]} | Kategori: {row[4]}")
 
 conn.close()
