@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8175dc7-5daa-4b91-88d4-e2db25bb54d4" name="Changes" comment="It works!">
-      <change afterPath="$PROJECT_DIR$/script 2/bulk-insert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CaseOpgaveSommer2026.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CaseOpgaveSommer2026.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-10-2026_11_09_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-10-2026_11_09__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +30,12 @@
     &quot;assignee&quot;: &quot;AImal947&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mikkel-CySe/CaseOpgaveProgrammering2026_1.git",
-    "accountId": "3276922b-decc-4ab6-a1d7-c697acc93431"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mikkel-CySe/CaseOpgaveProgrammering2026_1.git&quot;,
+    &quot;accountId&quot;: &quot;3276922b-decc-4ab6-a1d7-c697acc93431&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
   &quot;fromUser&quot;: false
@@ -68,6 +64,12 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RunManager">
