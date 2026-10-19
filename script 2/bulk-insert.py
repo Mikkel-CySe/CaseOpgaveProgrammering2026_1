@@ -16,9 +16,6 @@ CREATE TABLE IF NOT EXISTS users (
 )
 """)
 
-# Tøm tabellen først, så vi ikke får dubletter hver gang scriptet køres
-cursor.execute("DELETE FROM users")
-
 # 100 INSERT INTO-statements genereret af en LLM
 inserts = [
     "INSERT INTO users (username, email, age, city, created) VALUES ('ahmadnie4', 'ahmadnie4@mail.dk', 65, 'Vejle', '2026-04-08')",
